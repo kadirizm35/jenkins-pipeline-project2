@@ -8,7 +8,7 @@ pipeline {
                 sh 'ls'
             }
         }
-    }
+    
     
         stage('run') {
             steps {
